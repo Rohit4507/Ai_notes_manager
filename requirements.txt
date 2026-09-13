@@ -1,6 +1,6 @@
-streamlit==1.39.0
+streamlit
 google-genai
-pymupdf
-python-dotenv==1.0.1
+PyMuPDF
+python-dotenv
 gspread
 google-auth
