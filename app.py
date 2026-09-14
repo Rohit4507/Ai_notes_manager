@@ -308,7 +308,7 @@ with col_support:
 
     st.link_button(
         "🚬Buy Me a Choti Advance",
-        "BUY_ME_A_COFFEE_LINK",
+        "buymeacoffee.com/rohit4507",
         use_container_width=True,
     )
 
