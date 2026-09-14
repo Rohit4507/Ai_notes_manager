@@ -306,11 +306,16 @@ with col_support:
         "If this tool helped you, you can support its development. ❤️"
     )
 
-    st.link_button(
-        "🚬Buy Me a Choti Advance",
-        "buymeacoffee.com/rohit4507",
-        use_container_width=True,
-    )
+    buy_me_coffee_link = st.secrets.get("buymeacoffee.com/rohit4507", "")
+
+    if buy_me_coffee_link:
+        st.link_button(
+            "☕ Buy Me a Coffee",
+            buy_me_coffee_link,
+            use_container_width=True,
+        )
+    else:
+        st.warning("Buy Me a Coffee link is not configured.")
 
 
 if __name__ == "__main__":
